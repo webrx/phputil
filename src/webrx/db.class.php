@@ -6,5 +6,9 @@
  * Info:
  */
 namespace webrx{
-
+    class db{
+        public function getPass(){
+            return uniqid();
+        }
+    }
 }
