@@ -5,10 +5,13 @@
  *  Ver: 1.0
  * Info:
  */
-namespace webrx{
+namespace webrx\phputil{
     class db{
         public function getPass(){
             return uniqid();
+        }
+        public function test(){
+            echo 'test - phputil - ok!!!';
         }
     }
 }
